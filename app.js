@@ -3,6 +3,7 @@ const simboloPositivo = escribir.split(" ");
 for(let i=0; i<simboloPositivo.length; i++){
   simboloPositivo[i] = simboloPositivo[i].charAt(0).toUpperCase() + simboloPositivo[i].slice(1);}
 const capitalLetters = simboloPositivo.join("+");
+const capitalLetter2 = simboloPositivo.join("-");
 
 let web1num = "Web 01 "
 let web1c01 = "https://pelispanda.com/";
@@ -52,3 +53,10 @@ let web7c02= "search?q="
 function concatenar(web7num, web7c01, web7c02, capitalLetters) {
     console.log(web7num + web7c01 + web7c02 + capitalLetters);
 }   concatenar(web7num, web7c01, web7c02, capitalLetters);
+
+let web8num = "Web 08 "
+let web8c01 = "http://www.bajarpelisgratis.com/";
+let web8c02= "videos/descargar-"
+function concatenar(web8num, web8c01, web8c02, capitalLetter2) {
+    console.log(web8num + web8c01 + web8c02 + capitalLetter2);
+}   concatenar(web8num, web8c01, web8c02, capitalLetter2);
